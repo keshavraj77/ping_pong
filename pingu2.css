@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+}
+#container {
+    position: relative;
+}
+video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+#ball {
+    width: 25px;
+    height: 25px;
+    background-color: cyan;
+    position: fixed;
+    top: 52.5%;
+    left: 18px;
+    border-radius: 50%;
+    /* box-shadow:  2.5px  2.5px  2.5px aqua; */
+}
+
+#rod1, #rod2 {
+    width: 14px;
+    height: 80px;
+    position: fixed;
+    top: 50%;
+    text-align:center;
+    color: black;
+    font-weight: bold;
+}
+
+#rod1 {
+    background-color: red;
+    left: 0px;
+    
+}
+
+#rod2 {
+    background-color: yellow;
+    right: 0px;
+   
+}
